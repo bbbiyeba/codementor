@@ -1,0 +1,6 @@
+﻿click==8.1.7
+anthropic==0.18.1
+python-dotenv==1.0.0
+pygments==2.17.2
+rich==13.7.0
+pyyaml==6.0.1

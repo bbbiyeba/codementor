@@ -1,0 +1,27 @@
+﻿api:
+  provider: "anthropic"
+  model: "claude-sonnet-4-20250514"
+  max_tokens: 4000
+
+user:
+  skill_level: "intermediate"
+  primary_languages:
+    - python
+    - javascript
+    - rust
+  learning_goals:
+    - "Improve code quality"
+    - "Learn best practices"
+
+review:
+  focus_areas:
+    - code_quality
+    - best_practices
+    - performance
+  include_examples: true
+  verbosity: "detailed"
+
+storage:
+  database_path: "./codementor.db"
+  keep_history: true
+  max_reviews: 1000
